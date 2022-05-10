@@ -6,7 +6,7 @@
 /*   By: dantavar <dantavar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 15:25:27 by dantavar          #+#    #+#             */
-/*   Updated: 2022/05/09 20:51:17 by dantavar         ###   ########.fr       */
+/*   Updated: 2022/05/10 20:11:22 by dantavar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@
 
 size_t	ft_strlen(char *s);
 char	*ft_strchr(char *s, int c);
-char	*ft_strjoin(char *left_str, char *buff);
-char	*ft_get_line(char *left_str);
-char	*ft_new_left_str(char *left_str);
-char	*ft_read_to_left_str(int fd, char *left_str);
+char	*ft_strjoin(char *main_str, char *buff);
+char	*ft_get_line(char *main_str);
+char	*ft_new_main_str(char *main_str);
+char	*ft_read_to_main_str(int fd, char *main_str);
 char	*get_next_line(int fd);
 
 #endif
